@@ -3,7 +3,7 @@ import React from 'react';
 const MovieList = props => {
   return (
     <div className="movie-list">
-      {props.movies.map(movie => (
+      {props.movieList.map(movie => (
         <MovieDetails key={movie.id} movie={movie} />
       ))}
     </div>
